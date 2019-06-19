@@ -25,7 +25,7 @@ namespace TryIcon
             VisibleChange(false);
         }
 
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+    private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = true;
             VisibleChange(false);
@@ -46,6 +46,8 @@ namespace TryIcon
             this.ntiTray.Visible = false;
             Application.ExitThread();
         }
+
+        
     }
 }
 

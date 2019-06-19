@@ -48,6 +48,7 @@
             this.btnTray.TabIndex = 0;
             this.btnTray.Text = "트레이로 이동";
             this.btnTray.UseVisualStyleBackColor = true;
+            this.btnTray.Click += new System.EventHandler(this.BtnTray_Click);
             // 
             // label1
             // 
